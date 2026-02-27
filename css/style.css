@@ -15,21 +15,25 @@ h1{
     margin-top: 10px;
 }
 .box{
-    background-color:antiquewhite;
+    background-color:slategray;
     padding: 25px;
     border-radius: 10px;
     width: 300px;
     text-align: center;
 }
 input, select, button{
-    color: #4CAF50;
+    background-color:aquamarine;
+    color: gold;
     width: 100%;
     padding: 10px;
     margin-top: 10px;
 }
 button {
-  background-color: #4CAF50;
-  color:blue;
+  background-color: bisque;
+  color:black;
   border: none;
   cursor: pointer;
+}
+.currency{
+    cursor: pointer;
 }
