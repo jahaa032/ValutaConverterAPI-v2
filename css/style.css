@@ -1,39 +1,65 @@
-body{
-    background-color:burlywood;
-}
-h1{
-    color:brown;
-}
-.drop-list {
-    display: flex;
-    gap: 10px; /* space between selects */
+body {
+    background-color: #f0f0f5; /* lys grå-lilla, behagelig for øynene */
+    font-family: Arial, sans-serif;
 }
 
-.amounts {
-    display: flex;
-    gap: 10px; /* space between input fields */
-    margin-top: 10px;
+h1 {
+    color: #222222;
+    text-align: center;
+    margin-bottom: 20px;
 }
-.box{
-    background-color:slategray;
+
+
+.box {
+    background-color: #ffffff; /* hvit bakgrunn for boksen */
     padding: 25px;
     border-radius: 10px;
-    width: 300px;
+    width: 320px;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* litt skygge fo boxen */
+    margin: 0 auto;
 }
-input, select, button{
-    background-color:aquamarine;
-    color: gold;
+
+
+.drop-list, .amounts {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+/* Inputs og selects */
+input, select {
     width: 100%;
     padding: 10px;
-    margin-top: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9; /* lys grå bakgrunn på select og input*/
+    color: #222222; /* mørk tekst for input og select for bedre kontrast*/
 }
+
+input:disabled {
+    background-color: #e0e0e0;
+    color: #555555; 
+}
+
+/* Knapper */
 button {
-  background-color: bisque;
-  color:black;
-  border: none;
-  cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    background-color: #007acc; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
-.currency{
+
+button:hover {
+    background-color: #005fa3; 
+}
+
+/* Dropdown cursor */
+.currency {
     cursor: pointer;
 }
